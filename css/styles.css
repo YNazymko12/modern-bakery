@@ -6,3 +6,107 @@
     --color-brand-normal: #819b57;
     --color-brand-light: #cfcfbc;
 }
+
+body {
+    background-color: var(--color-primary-light);
+    color: var(--color-primary-dark);
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color-brand-light);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--color-brand-normal);
+}
+
+.visually-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  .text-brand {
+    color: var(--color-brand-normal);
+}
+
+.text-brand-dark {
+    color: var(--color-brand-dark);
+  }
+  
+  .text-bold {
+    font-weight: 600;
+  }
+  
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+
+  .section__title {
+    color: var(--color-primary-dark);
+  }
+
+/* Header */
+
+.header__button {
+    border-radius: 8px;
+    border: none;
+    background-color: var(--color-brand-normal);
+    color: var(--color-brand-light);
+}
+
+.header__button:hover,
+.header__button:focus {
+    border: 2px solid var(--color-brand-normal);
+    background-color: inherit;
+    color: var(--color-brand-dark);
+}
+
+/* Hero-section */
+
+.hero-section__title {
+    color: var(--color-brand-light);
+}
+
+
+/* Advantages section */
+
+.advantages-section {
+    background-color: var(--color-brand-normal);
+}
+
+/* Tradition section */
+
+
+
+/* Chefs section */
+
+
+
+/* Formats section */
+
+.format-card__title {
+    color: var(--color-brand-light);
+}
+
+.format-card__text {
+    color: var(--color-brand-light);
+}
+
+/* Footer */
+
+.footer__address {
+    font-style: normal;
+}
+.footer__address-link {
+    color: var(--color-primary-light);
+}
