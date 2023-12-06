@@ -1,0 +1,10 @@
+.logo {
+  height: 38px;
+  width: 72px;
+  fill: var(--color-primary-light);
+
+  @media screen and (min-width: $bp-tablet) {
+    height: 56px;
+    width: 114px;
+  }
+}
