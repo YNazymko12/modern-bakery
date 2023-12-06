@@ -8,9 +8,6 @@ Welcome to the Modern Bakery landing page project. This is a simple and responsi
 - [Features](#features)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
